@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #007BFF;
+}
+
+header h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.status {
+    color: green;
+    font-weight: bold;
+}
+
+.steps .step {
+    margin: 20px 0;
+}
+
+.steps .step h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.steps .step input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.device-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.device-options button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.gems-coins {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.gems-coins .option {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.generate-button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.generate-button:hover {
+    background-color: #218838;
+}
